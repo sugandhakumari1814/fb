@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(229, 241, 245);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+section{
+    display: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.item{
+    /* border: 2px solid red; */
+    height: 100vh;
+    width: 50vw;
+}
+#item1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin: 50px;
+    padding: 60px;
+    /* border: 2px solid green; */
+}
+#fbhead{
+    color: blue;
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
+
+
+#user{
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 330px;
+    position: relative;
+    top: 200px;
+    background-color: white;
+    align-items: center;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 10px;
+   
+}
+.input{
+    display: block;
+    width: 85%; 
+    margin: 12px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(229, 241, 245);
+}
+
+.btn{
+    width: 90%;
+    color: white;
+    background-color: rgb(71, 71, 231);
+    font-size: 1.2rem;
+}
+span{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: blue;
+}
+.btn2{
+    width: 55%;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    top: 50px;
+    
+    
+}
+a{
+    text-decoration: none;
+    
+}

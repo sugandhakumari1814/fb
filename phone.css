@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+
+#item1{
+    display: none;
+}
+#back{
+    display: block;
+    height: 100px;
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+/* #formbox{
+    width:100% ;
+} */
+#user{
+    display: block;
+    width: 90vw;
+    margin: 23px auto;
+    
+}
+input[type='text'],input[type='password']{
+    background-color: white;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+    /* outline: none; */
+}

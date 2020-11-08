@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        #item2{
+            display: block;
+            width: 100%;}
+        #user{
+            height: auto;
+            width: 30%;
+            position: relative;
+            left: 35%;
+            top: 20px;
+        }
+        .other{
+            margin: 10px;
+            padding: 5px;
+        }
+        @media(max-width: 800px)
+        {
+           #user{
+               position: static;
+                display: block;
+                width: 80%;
+                margin: auto;
+           }
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="item" id="item2">0
+        <form id="formbox" action="backennd.php">
+            <div id="user">
+                <div>
+                    <label for="name">Enter your valid name</label>
+                    <input class="input" id="name" type="text" placeholder="enter your name">                
+                </div>
+
+                <div>
+                    <label for="dob">Select your date of birth </label>
+                    <input class="input" id="dob" type="date" placeholder="Password">
+                </div>
+                
+                <div>
+                    <label for="age">What is your age?</label>
+                    <input class="input" id="age" type="number" placeholder="enter your age">
+                </div>
+                <div>
+                    <label for="gdr">Select your gender</label> <br>
+                    Male<input class="other" id="gdr" type="radio" name="Mygender"> Female<input type="radio" name="Mygender">
+                </div>
+                <div>
+                    <label for="phn">Enter your mobile number</label>
+                    <input class="input" id="phn" type="text" placeholder="enter your mobile number">
+                </div>
+                <div>
+                    <label for="pswrd">Enter your password</label>
+                    <input class="input" id="pswrd" type="password" placeholder="enter your password">
+                </div>
+                <div>
+                    By clicking Create an account, you agree to our <a href="#">Terms,Data policy</a> and <a href="#">Cookie policy</a>
+                ,you may recieve SMs notification from us and can opt any time.
+                </div>
+                <div>
+                    <input class="btn2 input" type="button" value="Sign Up">
+                </div> <br> <br> <br> <br>
+                <div><a href="#">Create a page </a>for a celebrity, bandor business </div>
+                
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>
